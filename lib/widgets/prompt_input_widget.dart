@@ -8,7 +8,7 @@ class PromptInputWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      decoration: const InputDecoration(labelText: "Ne yapmak istiyorsun? (Örn: Özetle, Çevir vb.)"),
+      decoration: const InputDecoration(labelText: "Ask anything"),
       onChanged: onPromptChanged,
     );
   }
